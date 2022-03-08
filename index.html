@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Lista de Compras</title>
+
+</head>
+
+<body>
+    <div class="container-sm mt-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-8 col-12 align-self-center">
+                <div class="card p-5">
+                    <form>
+                        <p class="h1">Lista de compras</p>
+                        <small class="text-muted">Faça suas compras sem esquecer nada</small>
+                        <div class="mb-3 mt-5">
+                            <label for="input-name-produto" class="form-label">Adicione um novo produto</label>
+                            <input type="text" class="form-control" id="input-name-produto">
+                            <div id="produtoHelp" class="form-text">Adicione um novo produto a lista de desejos.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="input-price-produto" class="form-label">Adicione o valor</label>
+                            <input type="text" class="form-control" id="input-price-produto">
+                            <div id="priceHelp" class="form-text">Adicione o valor do produto.</div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <table class="table mt-5 table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">N°</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Arroz</td>
+                        <td>R$ 10,00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Feijão</td>
+                        <td>R$ 5,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
