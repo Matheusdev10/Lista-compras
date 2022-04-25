@@ -11,3 +11,14 @@ function saveInfo() {
   localStorage.setItem('inputName', inputName.value)
   localStorage.setItem('inputPrice', inputPrice.value)
 }
+
+const template = 
+<tr>
+<th scope='row'>1</th>
+<td>Arroz</td>
+<td>R$ 10,00</td>
+</tr>"
+
+function getInfostorage() {
+  localStorage.getItem()
+}
